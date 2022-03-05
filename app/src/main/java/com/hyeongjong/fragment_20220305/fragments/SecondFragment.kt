@@ -22,6 +22,7 @@ class SecondFragment : Fragment() {
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
 
+//        requireContext() = requireActivity() 둘다 가능
         btnToastInFragment.setOnClickListener {
             Toast.makeText(requireContext(), "토스트 띄우기", Toast.LENGTH_SHORT).show()
 

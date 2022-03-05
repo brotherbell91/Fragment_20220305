@@ -16,7 +16,13 @@
     <fragment
         android:tag="두번째프래그먼트"
         android:layout_width="match_parent"
-        android:layout_height="350dp"
+        android:layout_height="250dp"
         class="com.hyeongjong.fragment_20220305.fragments.SecondFragment"/>
+
+    <fragment
+        android:tag="세번째프래그먼트"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        class="com.hyeongjong.fragment_20220305.fragments.FirstFragment" />
 
 </LinearLayout>
