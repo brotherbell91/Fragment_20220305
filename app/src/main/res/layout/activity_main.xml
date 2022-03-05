@@ -8,10 +8,15 @@
     tools:context=".MainActivity">
 
     <fragment
-        android:tag="아무말"
+        android:tag="firstFrag"
         android:layout_width="match_parent"
         android:layout_height="250dp"
         class="com.hyeongjong.fragment_20220305.fragments.FirstFragment"/>
 
+    <fragment
+        android:tag="secondFrag"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        class="com.hyeongjong.fragment_20220305.fragments.SecondFragment"/>
 
 </LinearLayout>
