@@ -18,6 +18,7 @@ class FirstFragment : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
+//        JickbangCopy와 비슷, container에 뷰를 넣겠다, 루트는 없음
         return inflater.inflate(R.layout.fragment_first, container, false)
     }
 
